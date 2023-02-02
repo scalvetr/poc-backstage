@@ -1,0 +1,57 @@
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-system
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: poc
+spec:
+  owner: guests
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: poc-external-specs
+spec:
+  type: website
+  lifecycle: experimental
+  owner: guests
+  system: poc
+  providesApis: [poc-api]
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-api
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: poc-external-openapi
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: guests
+  system: poc
+  definition:
+    $text: https://api.apis.guru/v2/openapi.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: poc-external-avro
+spec:
+  type: avro
+  lifecycle: experimental
+  owner: guests
+  system: poc
+  definition:
+    $text: https://raw.githubusercontent.com/confluentinc/schema-registry/master/avro-data/src/test/avro/ArrayOfRecordsWithDefault.avsc
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: poc-external-asyncapi
+spec:
+  type: asyncapi
+  lifecycle: experimental
+  owner: guests
+  system: poc
+  definition:
+    $text: https://raw.githubusercontent.com/asyncapi/spec/master/examples/correlation-id.yml
