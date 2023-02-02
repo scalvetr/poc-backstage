@@ -1,4 +1,4 @@
-
+# POC Backstage
 
 ## Prerequisites:
 
@@ -19,20 +19,26 @@ Create App
 ```shell
 npx @backstage/create-app
 
-cp -f files/app-config.yaml backstage/app-config.yaml
+# cp -f files/app-config.yaml backstage/app-config.yaml
+patch < files/app-config.yaml.patch
 cp -f files/examples/poc.yaml backstage/examples/poc.yaml
 ```
 
 Test the app
 
 ```shell
-cd backstage
-yarn dev
+yarn --cwd backstage dev
 ```
 
+
+## Examples
+
 Install additional plugins
-
 ```shell
-yarn workspace app add @backstage/plugin-circleci
+yarn add --cwd backstage/packages/app @backstage/plugin-api-docs
 
+```
+Create the patch
+```shell
+diff -Naur backstage/app-config.yaml files/app-config.yaml > files/app-config.yaml.patch
 ```
