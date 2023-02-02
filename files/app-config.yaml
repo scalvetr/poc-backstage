@@ -38,7 +38,6 @@ backend:
       - host: raw.githubusercontent.com
       - host: api.apis.guru
 
-
 integrations:
   github:
     - host: github.com

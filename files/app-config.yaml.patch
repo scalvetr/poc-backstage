@@ -1,6 +1,6 @@
 --- backstage/app-config.yaml	2023-02-02 10:42:26
-+++ files/app-config.yaml	2023-02-02 10:52:03
-@@ -33,7 +33,12 @@
++++ files/app-config.yaml	2023-02-02 12:19:30
+@@ -33,6 +33,10 @@
    cache:
      store: memory
    # workingDirectory: /tmp # Use this to configure a working directory for the scaffolder, defaults to the OS temp-dir
@@ -9,11 +9,9 @@
 +      - host: raw.githubusercontent.com
 +      - host: api.apis.guru
  
-+
  integrations:
    github:
-     - host: github.com
-@@ -102,3 +107,7 @@
+@@ -102,3 +106,7 @@
      #   target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/acme-corp.yaml
      #   rules:
      #     - allow: [User, Group]
@@ -21,4 +19,3 @@
 +    # Additional poc components
 +    - type: file
 +      target: ../../examples/poc.yaml
-\ No newline at end of file
