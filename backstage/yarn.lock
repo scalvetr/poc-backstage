@@ -38,12 +38,12 @@
     "@openapi-contrib/openapi-schema-to-json-schema" "^3.0.0"
 
 "@asyncapi/parser@^1.17.0":
-  version "1.17.2"
-  resolved "https://registry.yarnpkg.com/@asyncapi/parser/-/parser-1.17.2.tgz#be8e70c9bbf917fc8ec353ecd99b7164a4b7f799"
-  integrity sha512-xI9GShIuQVfBz5IZ2c9h6cxcPTnfzI1fch6kYL+nF68Q3U669Un0K0TSeyEa57EfhTap53UIRTj7gFIM9QZTNQ==
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/@asyncapi/parser/-/parser-1.18.0.tgz#973fdc4581f9588511bfd2b5c126c6018892cf96"
+  integrity sha512-FbcYjXNhBBAnDVHUR87MLtCtnTim7DzLq04y3D3wHQEVhITGqROxslbEDqnLEpssqJl/aBCsW21CGocDJT/q4g==
   dependencies:
     "@apidevtools/json-schema-ref-parser" "^9.0.6"
-    "@asyncapi/specs" "^4.0.1"
+    "@asyncapi/specs" "^4.1.0"
     "@fmvilas/pseudo-yaml-ast" "^0.3.1"
     ajv "^6.10.1"
     js-yaml "^3.13.1"
@@ -67,10 +67,10 @@
     react-icons "^4.4.0"
     use-resize-observer "^8.0.0"
 
-"@asyncapi/specs@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@asyncapi/specs/-/specs-4.0.1.tgz#bbf2e704845422262ab66f196e6c77aa71b67aa6"
-  integrity sha512-3sKw49Y/TeKT/FO2YX/DlyOekytko5KFwNJ3zMPmai+pyhz3gux2p5zV5kGJRCwApI1gX0GJw6p15a6CZgg01w==
+"@asyncapi/specs@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@asyncapi/specs/-/specs-4.1.0.tgz#9b4b5698bd91532338569cc8b4451faa6e422320"
+  integrity sha512-2arh2J4vGUkgx7Y8zB2UMdYpgYiL4P+Te1Na5Yi9IEDe6UBVwOGFYK8MR7HZ0/oInHQFygpuouAjHnIifoZykg==
   dependencies:
     "@types/json-schema" "^7.0.11"
 
@@ -174,10 +174,10 @@
   dependencies:
     tslib "^2.3.1"
 
-"@aws-sdk/client-cognito-identity@3.262.0":
-  version "3.262.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cognito-identity/-/client-cognito-identity-3.262.0.tgz#7b228be0d382bce08528898b18191fd6ca0063eb"
-  integrity sha512-Kmms7MZUR8Sl5PzgaWz/8rG+VkhKGQJEiY74VHLqJ/BLg4KyIYpHfqiif+J6/9HWN4SGFic1Aij37D5EFA9kgw==
+"@aws-sdk/client-cognito-identity@3.263.0":
+  version "3.263.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cognito-identity/-/client-cognito-identity-3.263.0.tgz#2d3b5c026a4cfde3ecb836e32dad12c2f32fb4a8"
+  integrity sha512-owlk/yYL1vqkAFGvtOtEE7RzjjolnJ9n4dwb0+a7EkIZdnhj3dBegrbCBTMt/RuCLVAUpfqOgOSnUo2ikJIpXw==
   dependencies:
     "@aws-crypto/sha256-browser" "3.0.0"
     "@aws-crypto/sha256-js" "3.0.0"
@@ -404,12 +404,12 @@
     "@aws-sdk/util-middleware" "3.257.0"
     tslib "^2.3.1"
 
-"@aws-sdk/credential-provider-cognito-identity@3.262.0":
-  version "3.262.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-cognito-identity/-/credential-provider-cognito-identity-3.262.0.tgz#4df060e2dd2208b2dd188dec711ff5f72730dbda"
-  integrity sha512-oOVslglkpOoA8XUoc8yGGky+hUdDezx3CfzdrUg0TeyTqj3dVEEo+ghLk/ngne+T2t73revVJ2AAaOgVNomRcA==
+"@aws-sdk/credential-provider-cognito-identity@3.263.0":
+  version "3.263.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-cognito-identity/-/credential-provider-cognito-identity-3.263.0.tgz#6bcf7a56cee393e9b993acda57b02bb9d621d3dd"
+  integrity sha512-7ZGSLdIPsv6AZlGeibj9chXDlncHhhxb5aDO9oMNweracpByVw+tT5XMLrWQeaZYt7i+cqOqYfvbi5P6mVvX8w==
   dependencies:
-    "@aws-sdk/client-cognito-identity" "3.262.0"
+    "@aws-sdk/client-cognito-identity" "3.263.0"
     "@aws-sdk/property-provider" "3.257.0"
     "@aws-sdk/types" "3.257.0"
     tslib "^2.3.1"
@@ -497,14 +497,14 @@
     tslib "^2.3.1"
 
 "@aws-sdk/credential-providers@^3.208.0":
-  version "3.262.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-providers/-/credential-providers-3.262.0.tgz#c9eef9d13da4afa8fb1fb2a78534ddf34fe10eb0"
-  integrity sha512-sJcLaBcuXkeIqQuCEQK2OFgfsN0AcOpGa/7nRGUzh9/9bif0rl/xBi96Wqyeb7Tf71qZ9gcpBnDUaaK+O9q6mg==
+  version "3.263.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-providers/-/credential-providers-3.263.0.tgz#056dfd976b8bc4810c0d6917d4194a513930c238"
+  integrity sha512-ty9M51y4gXz6AgSs9PgiE1xBLwTF3Wbsxphrl3jfCt/cd/9A8EHfzkGA1GL8jliw0BIoWKWtKu/Yow+cra7HPg==
   dependencies:
-    "@aws-sdk/client-cognito-identity" "3.262.0"
+    "@aws-sdk/client-cognito-identity" "3.263.0"
     "@aws-sdk/client-sso" "3.261.0"
     "@aws-sdk/client-sts" "3.262.0"
-    "@aws-sdk/credential-provider-cognito-identity" "3.262.0"
+    "@aws-sdk/credential-provider-cognito-identity" "3.263.0"
     "@aws-sdk/credential-provider-env" "3.257.0"
     "@aws-sdk/credential-provider-imds" "3.259.0"
     "@aws-sdk/credential-provider-ini" "3.261.0"
@@ -7714,9 +7714,9 @@ available-typed-arrays@^1.0.5:
   integrity sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==
 
 aws-sdk@^2.840.0:
-  version "2.1306.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1306.0.tgz#33a5f8d732c2bfb8bb0d8dd946163814f294242d"
-  integrity sha512-t3M04Nx+uHVYcRGZXoI0Dr24I722oslwkwGT/gFPR2+Aub5dQ88+BetCPBvg24sZDg2RNWNxepYk5YHuKV5Hrg==
+  version "2.1307.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1307.0.tgz#387e0ca566d135a28b1fa0397edfd1a3f45e8ea6"
+  integrity sha512-fRGMLrFrndcl7VXp6ynbFry4S+eO360cIw5sdfI2ZdC86aQlg7vSh5WAdARMExnwKCeaoiGhRe1fTBS3WoLwAw==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -11861,9 +11861,9 @@ graphql-language-service@^5.0.6:
     vscode-languageserver-types "^3.17.1"
 
 graphql-ws@^5.4.1:
-  version "5.11.2"
-  resolved "https://registry.yarnpkg.com/graphql-ws/-/graphql-ws-5.11.2.tgz#d5e0acae8b4d4a4cf7be410a24135cfcefd7ddc0"
-  integrity sha512-4EiZ3/UXYcjm+xFGP544/yW1+DVI8ZpKASFbzrV5EDTFWJp0ZvLl4Dy2fSZAzz9imKp5pZMIcjB0x/H69Pv/6w==
+  version "5.11.3"
+  resolved "https://registry.yarnpkg.com/graphql-ws/-/graphql-ws-5.11.3.tgz#eaf8e6baf669d167975cff13ad86abca4ecfe82f"
+  integrity sha512-fU8zwSgAX2noXAsuFiCZ8BtXeXZOzXyK5u1LloCdacsVth4skdBMPO74EG51lBoWSIZ8beUocdpV8+cQHBODnQ==
 
 graphql@^16.0.0:
   version "16.6.0"

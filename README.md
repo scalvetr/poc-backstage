@@ -18,12 +18,15 @@ Create App
 
 ```shell
 npx @backstage/create-app
+
+cp -f files/app-config.yaml backstage/app-config.yaml
+cp -f files/examples/poc.yaml backstage/examples/poc.yaml
 ```
 
 Test the app
 
 ```shell
-cd poc-backstage
+cd backstage
 yarn dev
 ```
 
